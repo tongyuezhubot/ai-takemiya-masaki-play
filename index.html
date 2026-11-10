@@ -6,8 +6,8 @@
   <title>AI武宫正树</title>
   <meta name="author" content="tongyuezhubot">
   <meta name="description" content="本地围棋对弈。">
-  <script type="module" crossorigin src="./assets/index-e05BCAL8.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-DtPFtZrD.css">
+  <script type="module" crossorigin src="./assets/index-BVCNkD6k.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DUyA1SZ5.css">
 </head>
 <body>
   <main>
@@ -16,6 +16,10 @@
         <div class="board-heading">
           <div class="turn"><span id="turn-stone" class="stone-dot black"></span><strong id="turn-label">准备棋局</strong><span id="move-count">第 1 手</span></div>
           <span id="board-meta" class="board-meta">19 路 · 贴 7.5 目</span>
+        </div>
+        <div id="position-estimate" class="position-estimate" aria-label="实时局势估算" hidden>
+          <span>胜率 <b id="estimate-winrate">—</b></span>
+          <span>目差 <b id="estimate-score">—</b></span>
         </div>
         <div class="board-shell">
           <div class="board-face"><svg id="board" viewBox="0 0 660 660" role="group" aria-label="围棋棋盘"></svg></div>
